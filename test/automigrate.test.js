@@ -132,6 +132,7 @@ describe('CouchDB automigrate', function() {
     });
   });
 
+  
   describe('isActual', function() {
     before(function() {
       if (skips.indexOf(this.test.parent.title) > -1) {
